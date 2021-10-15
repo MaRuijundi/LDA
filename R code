@@ -19,7 +19,7 @@ articles.corpus <- tm_map(articles.corpus, removeNumbers);
 #删除空白格
 articles.corpus <- tm_map(articles.corpus, stripWhitespace);
 # 删除通用和自定义的停用词
-stopword <- c(stopwords('english'), "fn","vr","pt","au","af","ti","so","la","dt","de","id","ab","c1","rp","em","fu","fx","cr","nr","tc","z9","u1","u2","pu","pi","pa","sn","ei","j9","ji","pd","py","vl","su","bp","ep","di","pg","wc","sc","ga","ut","da","er","can","one","and","like","just","gonna","know","really","right","going","get","well","lot","actually","new",
+stopword <- c(stopwords('english'), "ti","so","ab","can","one","and","like","just","gonna","know","really","right","going","get","well","lot","actually","new",
               "will","much","way","and","see","make","look",
               "also","able","say","back","got","take","great",
               "many","next","using","around","thing","two",
